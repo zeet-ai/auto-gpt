@@ -5,7 +5,7 @@ class AuthService {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final GoogleSignIn googleSignIn = GoogleSignIn(
       clientId:
-          "387936576242-iejdacrjljds7hf99q0p6eqna8rju3sb.apps.googleusercontent.com");
+          "92838019079-9imb3tbivl2ko3ud6ldpsm54rcs4fd4k.apps.googleusercontent.com");
 
   // Sign in with Google
   Future<UserCredential?> signInWithGoogle() async {
