@@ -31,4 +31,4 @@ RUN poetry install --no-dev
 # Copy the rest of the project into the Docker container
 COPY . .
 
-CMD python3 cli.py agent start forge && pause
+CMD python3 cli.py agent start forge && sleep infinity
