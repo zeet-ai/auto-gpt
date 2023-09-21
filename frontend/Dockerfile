@@ -1,4 +1,4 @@
-FROM cirrusci/flutter:latest as build
+FROM instrumentisto/flutter as build
 
 # Set the working directory in the Docker container
 WORKDIR /app
