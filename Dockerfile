@@ -1,5 +1,5 @@
 # Use an official Python image as the base
-FROM python:3.10-slim
+FROM python:3.10
 
 # Set environment variables for Poetry
 # 1. Make sure that the packages are installed globally within the docker image.
